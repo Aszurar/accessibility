@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1044px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav a{
+  color: var(--purple-600);
+}
+
+.content {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  
+  max-width: 766px;
+  margin: 0 auto;
+  
+  color: var(--gray-400);
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

@@ -1,0 +1,29 @@
+:root {
+
+  --gray-900: #121214;
+  --gray-400: #555;
+  --purple-600: #8257e5;
+  --white: #ffffff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+  --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button, select { 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}

@@ -1,6 +1,8 @@
 :root {
 
   --gray-900: #121214;
+  --gray-700: #202024;
+  --gray-600: #29292e;
   --gray-400: #a8a8b3;
   --purple-600: #996dff;
   --white: #ffffff;
@@ -26,4 +28,9 @@ textarea,
 button, select { 
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
 }
